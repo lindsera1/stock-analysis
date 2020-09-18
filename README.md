@@ -30,11 +30,11 @@ This is what we found:
 
 ![All_stock_results.png](https://github.com/lindsera1/stock-analysis/blob/master/All_stock_results.png)
 
-To make the evaluating simpler, we color coded the stocks that gave positive return percentages the color green, and those
+To make the evaluation simpler, we color coded the stocks that gave positive return percentages the color green, and those
 returning negative percentages, the color red. Knowing this, we can see that two stocks seemed to perform better than all the
 others ("ENPH" and "RUN").
 
-When I ran a 2017 Analysis, all but 1 stock yielded positive returns, but wanting to be as relevant to the current time as 
+When I ran a 2017 analysis, all but 1 stock yielded positive returns, but wanting to be as relevant to the current time as 
 possible we should only base our recommendations on the most recent performance. In the future, if Steve wanted to look at more 
 stocks, this could require a change in our approach in VBA to how we handle large amounts of data, so we refactored our code.
 
