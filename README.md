@@ -54,7 +54,7 @@ unintended consequences may happen, as in my case, the run time of the code beca
 I managed to narrow our loop down to one loop to perform all the assignments, rather than using a nested
 loop.
 
-![Refactored_code.png](https://github.com/lindsera1/stock-analysis/blob/master/Refactored_code.png)
+![Refactored_Code2.png](https://github.com/lindsera1/stock-analysis/blob/master/Refactored_Code2.png)
 
 By doing this, and placing the results of volumes, starting prices, and ending prices all in arrays, we allow the end user
 to tack on as many tickers as he wishes, so long as they stay in order. Once we have looped through every row of data, we have
